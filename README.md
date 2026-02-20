@@ -1,5 +1,6 @@
 ☕ Excel Coffee Sales Data Model & Dashboard
 This project transforms raw, scattered transactional data into a fully interactive, interconnected sales dashboard using Microsoft Excel. It’s an end-to-end demonstration of data cleaning, relational data modeling, and business intelligence reporting.
+* To access all project elements/content file must be opened in desktop app
 
 📦 Project Contents:
 
