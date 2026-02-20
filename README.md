@@ -1,20 +1,27 @@
-# Coffee-Sales-Report
-An end-to-end data analysis project in Microsoft Excel that transforms raw, multi-table transactional data into an interactive sales dashboard. This project demonstrates relational data modeling, advanced formula usage, and data aggregation techniques.
+☕ Excel Coffee Sales Data Model & Dashboard
+This project transforms raw, scattered transactional data into a fully interactive, interconnected sales dashboard using Microsoft Excel. It’s an end-to-end demonstration of data cleaning, relational data modeling, and business intelligence reporting.
 
-Key Objectives:
+📦 Project Contents:
 
-Clean and merge disparate datasets (Orders, Customers, Products) into a central fact table.
+orders.csv (Fact Table): Over 1,000 historical transaction records spanning from 2019 to 2022.
 
-Analyze historical sales data to uncover trends in product popularity, regional performance, and customer loyalty.
+customers.csv (Dimension Table): Granular contact, geographic, and loyalty data for our global customer base.
 
-Develop an automated, interactive dashboard for quick executive decision-making.
+products.csv (Dimension Table): Pricing, sizing, and roast specifications for four distinct coffee types (Arabica, Excelsa, Liberica, Robusta).
 
-Tools & Techniques Used:
+From this raw data, I engineered summarized tables to feed the dashboard:
 
-Microsoft Excel: Primary tool for data manipulation and visualization.
+Total Sales Timeline: A cross-tabulation of monthly and yearly sales categorized by coffee type.
 
-Data Modeling: Combined multiple dimension tables (Customers, Products) with a central fact table (Orders) using advanced functions (XLOOKUP, INDEX, MATCH).
+Top 5 Customers: A VIP leaderboard to identify our most valuable buyers (shoutout to Allis Wilmore and Brenn Dundredge!).
 
-Data Aggregation: Utilized Pivot Tables to summarize key metrics (e.g., Monthly Sales YoY, Top 5 Customers, Revenue by Country).
+Country Bar Chart: Aggregated total revenue segmented by the US, UK, and Ireland.
 
-Dynamic Visualizations: Built interconnected charts driven by summarized data to allow for dynamic filtering and exploration.
+🛠️ Core Skills & Methodology
+Relational Data Modeling: Instead of relying on one massive, messy spreadsheet, I maintained a clean database structure. I linked the central Orders table to the Customers and Products tables to create a robust data model.
+
+Advanced Lookup Functions: Automated data retrieval across sheets using complex formulas. This includes utilizing XLOOKUP for precise 1-to-1 matching and nested INDEX/MATCH functions to perform dynamic two-way lookups (e.g., matching a Product ID row with a dynamic header column).
+
+Data Aggregation & Pivot Tables: Designed optimized Pivot Tables to summarize four years of data, creating the specific KPIs and cuts of data needed for the final presentation.
+
+Interactive Dashboard Design: Built a front-end user interface utilizing Pivot Charts and Slicers, allowing stakeholders to seamlessly filter data by date ranges, roast types, and geographic locations.
