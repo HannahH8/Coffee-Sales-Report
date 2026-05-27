@@ -1,3 +1,5 @@
+<img width="1369" height="753" alt="image" src="https://github.com/user-attachments/assets/16139b8c-06ac-4ce2-904c-07877b48c05a" />
+
 ☕ Excel Coffee Sales Data Model & Dashboard
 This project transforms raw, scattered transactional data into a fully interactive, interconnected sales dashboard using Microsoft Excel. It’s an end-to-end demonstration of data cleaning, relational data modeling, and business intelligence reporting.
 * To access all project elements/content file must be opened in desktop app
